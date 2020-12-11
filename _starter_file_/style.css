@@ -1,0 +1,20 @@
+/* robobo regular 400 and bold 700 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    /* display vertically */
+    flex-direction: column;
+    align-items: center;
+    /* to be able to center vertically, height must be set */
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    /* hide scroll bar */
+    overflow: hidden;
+}
